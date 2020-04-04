@@ -217,13 +217,13 @@ article div{
 }
 
 
-.card:first-child{
+#home-articles .card:first-child{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 1/ span 2;
 }
 
-.card:last-child{
+#home-articles .card:last-child{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 2/ span 2;
@@ -307,4 +307,24 @@ footer div a[class="btn"]{
     grid-column: 1 / span 4;
     text-align: center;
     padding: 1rem 0;
+}
+
+/*About Page*/
+
+.page-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.page-container *:first-child{
+    grid-row: 1/ span 3 ;
+
+}
+
+.page-container a{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    margin-top: .5rem;
 }
