@@ -328,3 +328,36 @@ footer div a[class="btn"]{
     color: var(--light-color);
     margin-top: .5rem;
 }
+
+/*article page*/
+
+.page-container div[class="card"] div p {
+    margin-right: .55rem;
+}
+
+.page-container div[class="card"] div div{
+    margin-top: .55rem;
+}
+.page-container div[class="card"] div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.page-container div[class="card"] h2{
+    margin-top: .5rem;
+}
+
+.page-container  ul  li{
+    border-bottom: 2px dotted #666666;
+}
+
+.page-container aside:last-child{
+    background-color: var(--secondary-color);
+}
+
+.page-container aside a{
+    background-color: var(--dark-color);
+    width: 100%;
+    text-align: center;
+}
